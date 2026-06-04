@@ -1,0 +1,112 @@
+/* ──────────────────────────────────────────────────────────────────────────
+   Cada tema só sobrescreve as variáveis CSS expostas em base.css.
+   Para adicionar um tema novo: copie um bloco e ajuste os valores.
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* MOB PSYCHO 100 — vermelho/cyan + branco off-white + tinta preta */
+[data-theme='mob'] {
+  --bg: #f5f1e8;
+  --bg-pattern:
+    radial-gradient(circle at 10% 20%, rgba(255, 60, 60, 0.08) 0, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(60, 200, 220, 0.1) 0, transparent 40%);
+  --text: #1a1a1a;
+  --text-muted: #5a5a5a;
+  --accent: #ff3b3b;
+  --accent-2: #2ec4d6;
+  --card-bg: #ffffff;
+  --card-border: #1a1a1a;
+  --card-shadow: 6px 6px 0 #1a1a1a;
+  --font-display: 'Bangers', 'Bebas Neue', sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --display-letter-spacing: 0.04em;
+}
+
+/* JUJUTSU KAISEN — roxo profundo + preto + rosa cursed */
+[data-theme='jjk'] {
+  --bg: #0d0a18;
+  --bg-pattern:
+    radial-gradient(circle at 15% 30%, rgba(155, 80, 255, 0.18) 0, transparent 45%),
+    radial-gradient(circle at 85% 70%, rgba(255, 60, 160, 0.12) 0, transparent 45%);
+  --text: #f3eaff;
+  --text-muted: #b8a8d0;
+  --accent: #b266ff;
+  --accent-2: #ff4fa3;
+  --card-bg: #1a1430;
+  --card-border: #b266ff;
+  --card-shadow: 0 0 18px rgba(178, 102, 255, 0.35);
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --display-letter-spacing: 0.06em;
+}
+
+/* GOKUDOLLS — pink hot + preto couro + amarelo neon */
+[data-theme='goku'] {
+  --bg: #1a0810;
+  --bg-pattern:
+    radial-gradient(circle at 20% 25%, rgba(255, 20, 130, 0.22) 0, transparent 45%),
+    radial-gradient(circle at 80% 75%, rgba(255, 230, 0, 0.12) 0, transparent 45%);
+  --text: #fff0f5;
+  --text-muted: #d8a8c0;
+  --accent: #ff1480;
+  --accent-2: #ffe600;
+  --card-bg: #2a1020;
+  --card-border: #ff1480;
+  --card-shadow: 0 0 20px rgba(255, 20, 128, 0.4);
+  --font-display: 'Righteous', sans-serif;
+  --font-body: 'Noto Sans JP', 'Inter', sans-serif;
+  --display-letter-spacing: 0.05em;
+}
+
+/* GUMBALL — arco-íris doce + xadrez */
+[data-theme='gum'] {
+  --bg: #fef9ec;
+  --bg-pattern:
+    linear-gradient(135deg, rgba(120, 200, 255, 0.18) 0%, rgba(255, 180, 220, 0.18) 50%, rgba(255, 240, 130, 0.18) 100%),
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.025) 0, rgba(0, 0, 0, 0.025) 12px, transparent 12px, transparent 24px);
+  --text: #1f3550;
+  --text-muted: #5a7090;
+  --accent: #ff5ea8;
+  --accent-2: #4ec5ff;
+  --card-bg: #ffffff;
+  --card-border: #1f3550;
+  --card-shadow: 5px 5px 0 #1f3550;
+  --font-display: 'Fredoka One', system-ui, sans-serif;
+  --font-body: 'Quicksand', system-ui, sans-serif;
+  --display-letter-spacing: 0.02em;
+}
+
+/* AZAZEL — amarelo enxofre + vermelho demônio + creme sujo */
+[data-theme='aza'] {
+  --bg: #1c1410;
+  --bg-pattern:
+    radial-gradient(circle at 10% 20%, rgba(220, 60, 40, 0.22) 0, transparent 45%),
+    radial-gradient(circle at 90% 85%, rgba(240, 200, 60, 0.18) 0, transparent 45%);
+  --text: #f5e8c8;
+  --text-muted: #c8b890;
+  --accent: #f0c83c;
+  --accent-2: #dc3c28;
+  --card-bg: #2a1f15;
+  --card-border: #f0c83c;
+  --card-shadow: 0 0 18px rgba(220, 60, 40, 0.35);
+  --font-display: 'Creepster', cursive;
+  --font-body: 'Lora', Georgia, serif;
+  --display-letter-spacing: 0.04em;
+}
+
+/* HUNTER × HUNTER — verde Gon + prata Killua + dourado licença */
+[data-theme='hxh'] {
+  --bg: #0f1a14;
+  --bg-pattern:
+    radial-gradient(circle at 15% 25%, rgba(80, 220, 120, 0.18) 0, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(240, 200, 80, 0.14) 0, transparent 45%);
+  --text: #e8f5dc;
+  --text-muted: #a8c098;
+  --accent: #50dc78;
+  --accent-2: #f0c850;
+  --card-bg: #182a20;
+  --card-border: #50dc78;
+  --card-shadow: 0 0 18px rgba(80, 220, 120, 0.35);
+  --font-display: 'Press Start 2P', system-ui, monospace;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --display-letter-spacing: 0.02em;
+}
